@@ -1,22 +1,17 @@
-
+import "./Post.css"
 
 const Post = (props) => {
 
     return (
-        <div onClick={props.setSelected}> 
-            <h3> {props.id}</h3>
-            <div className="Field">
+        <div class="post"> 
+            <h5> 
                 {props.title}
-            </div>
+            </h5>
             <div className="Field">
                 {props.author}
-            </div>
-            <div className="Edit">
-                <input
-                    type="button"
-                    value="Delete"
-                    onClick={props.deletePost} />
             </div>
         </div>
     )
 }
+
+export default Post

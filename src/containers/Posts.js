@@ -1,4 +1,4 @@
-
+import Post from "../components/Post/Post"
 
 
 const Posts = (props) => {
@@ -9,8 +9,6 @@ const Posts = (props) => {
             title={post.title}
             author={post.author}
             key={post.id}
-            deletePost={() => { props.deleteProduct(post.id) }}
-            setSelected= { ()=> { props.setSelected(post.id) }}
         />
     });
     return posts;
@@ -18,4 +16,4 @@ const Posts = (props) => {
 
 }
 
-export default Products;
+export default Posts;

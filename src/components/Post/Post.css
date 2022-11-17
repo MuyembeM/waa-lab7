@@ -1,27 +1,12 @@
 
-.Edit label {
-    display: block;
-    color: grey;
+.post {
+    display: inline-block;
+    width: 25%;
+    background-color: skyblue;
+    margin-right: 5px;
+    padding: 10px;
+    height: 200px;
+    border-width: 2px;
+    border: solid;
 }
 
-.Edit button {
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
-    outline: none;
-    color: #fa923f;
-}
-
-.Edit button:hover,
-.Edit button:active {
-    color: #521751;
-}
-
-.Edit button.Delete {
-    color: red;
-}
-
-.Edit button.Delete:hover,
-.Edit button.Delete:active {
-    color: darkred;
-}
